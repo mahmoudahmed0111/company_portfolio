@@ -1,0 +1,125 @@
+<?php
+
+return [
+    'landing title' => 'عنوان الصفحة الرئيسية',
+    'landing description' => 'وصف الصفحة الرئيسية',
+    'Home' => 'الرئيسية',
+    'Feature' => 'المميزات',
+    'Price' => 'السعر',
+    'Blog' => 'المدونة',
+    'Contact' => 'اتصل بنا',
+    'Sign Up' => 'اشترك الآن',
+    'Arabic' => 'العربية',
+    'English' => 'الإنجليزية',
+    'Get Started' => 'ابدأ الآن',
+    'Enter your name' => 'أدخل اسمك',
+    'Enter email address' => 'أدخل عنوان البريد الإلكتروني',
+    'Enter Subject' => 'أدخل الموضوع',
+    'Enter Message' => 'أدخل الرسالة',
+    'feature_title' => 'ميزة البرمجيات الرائعة',
+    'feature_description' => 'توفر هذه الميزة حلولًا مبتكرة تضمن لك تحسين الأداء وتحقيق النتائج المرجوة.',
+    'feature_name_1' => 'تصميم فريد',
+    'feature_name_2' => 'حلول الأعمال',
+    'feature_name_3' => 'دعم العملاء',
+    'feature_description_1' => 'تصميم مميز يوفر تجربة مستخدم سلسة مع العديد من الخيارات المخصصة.',
+    'feature_description_2' => 'حلول مبتكرة تتناسب مع احتياجات الأعمال في مختلف الصناعات.',
+    'feature_description_3' => 'دعم متميز يقدم استجابة سريعة ومهنية لجميع استفسارات العملاء.',
+    'about_name' => 'قيادة ثورة الترفيه الرقمي',
+    'about_description' => 'نحن نقدم حلولًا مبتكرة في عالم الترفيه الرقمي تجمع بين الفن والتكنولوجيا لتقديم تجربة لا مثيل لها.',
+    'service_title' => 'خدمة البرمجيات المميزة',
+    'service_description' => 'نقدم خدمات مبتكرة تهدف إلى تحسين وتطوير الأعمال باستخدام أدوات وتقنيات متقدمة.',
+    'solution_title' => 'حلول بسيطة للاتصالات المعقدة',
+    'solution_description' => 'نحن نعمل على توفير حلول متكاملة تلبي احتياجات الاتصالات المعقدة بأعلى مستوى من الكفاءة. ',
+    'project_title' => 'مشاريعنا',
+    'project_description' => 'نقدم مجموعة من المشاريع الرائدة التي تتميز بالإبداع والجودة العالية في التنفيذ.',
+    'client_title' => 'آراء العملاء',
+    'client_description' => 'نحن فخورون برؤية عملائنا وهم يحققون النجاح بفضل حلولنا المبتكرة والداعمة لاحتياجاتهم.',
+
+    // خطة باقات التسويق
+    'Marketing Packages' => 'باقات التسويق',
+    'Packages We Offer for Marketing' => 'الباقات التي نقدمها للتسويق',
+    'marketing_packages_description' => 'مخيمات MCSE لديها مؤيدون ومعارضون. البعض لا يفهم لماذا يجب أن تنفق المال على المخيم بينما يمكنك الحصول على مواد دراسة MCSE بنفسك بتكلفة أقل.',
+    'packages_feature_name_1' => 'سهل الإدارة',
+    'packages_feature_name_2' => 'أداة التحليل',
+    'packages_feature_name_3' => 'أدوات احترافية',
+    'packages_feature_name_4' => 'محتوى جاهز',
+    'packages_feature_description_1' => 'مستوى دعم عالي وميزات تناسب جميع احتياجات عملك.',
+    'packages_feature_description_2' => 'أداة تحليل متكاملة لتحليل البيانات بكفاءة.',
+    'packages_feature_description_3' => 'أدوات احترافية تلبي جميع احتياجات الأعمال.',
+    'packages_feature_description_4' => 'محتوى جاهز ليدعم مشاريعك التجارية.',
+    'marketing_packages_title' => 'اختر خطتك',
+    'marketing_packages_description' => 'تقدم حلول التسويق الإلكترونية التي تساعد في تحسين الأداء والوصول إلى جمهور أوسع.',
+
+    // خطة باقات الخوادم
+    'Servers Packages' => 'باقات الخوادم',
+    'Packages We Offer for Servers' => 'الباقات التي نقدمها للخوادم',
+    'server_packages_description' => 'مخيمات MCSE لديها مؤيدون ومعارضون. البعض لا يفهم لماذا يجب أن تنفق المال على المخيم بينما يمكنك الحصول على مواد دراسة MCSE بنفسك بتكلفة أقل.',
+    'server_packages_feature_name_1' => 'سهل الإدارة',
+    'server_packages_feature_name_2' => 'أداة التحليل',
+    'server_packages_feature_name_3' => 'أدوات احترافية',
+    'server_packages_feature_name_4' => 'محتوى جاهز',
+    'server_packages_feature_description_1' => 'مستوى دعم عالي وميزات تناسب جميع احتياجات عملك.',
+    'server_packages_feature_description_2' => 'أداة تحليل متكاملة لتحليل البيانات بكفاءة.',
+    'server_packages_feature_description_3' => 'أدوات احترافية تلبي جميع احتياجات الأعمال.',
+    'server_packages_feature_description_4' => 'محتوى جاهز ليدعم مشاريعك التجارية.',
+    'server_packages_title' => 'اختر خطتك',
+    'server_packages_description' => 'تقدم حلول الخوادم التي تلبي احتياجات عملك بكفاءة عالية.',
+
+    // خطة باقات البريد الإلكتروني
+    'Emails Packages' => 'باقات البريد الإلكتروني',
+    'Packages We Offer for Emails' => 'الباقات التي نقدمها للبريد الإلكتروني',
+    'emails_packages_description' => 'مخيمات MCSE لديها مؤيدون ومعارضون. البعض لا يفهم لماذا يجب أن تنفق المال على المخيم بينما يمكنك الحصول على مواد دراسة MCSE بنفسك بتكلفة أقل.',
+    'emails_packages_feature_name_1' => 'سهل الإدارة',
+    'emails_packages_feature_name_2' => 'أداة التحليل',
+    'emails_packages_feature_name_3' => 'أدوات احترافية',
+    'emails_packages_feature_name_4' => 'محتوى جاهز',
+    'emails_packages_feature_description_1' => 'مستوى دعم عالي وميزات تناسب جميع احتياجات عملك.',
+    'emails_packages_feature_description_2' => 'أداة تحليل متكاملة لتحليل البيانات بكفاءة.',
+    'emails_packages_feature_description_3' => 'أدوات احترافية تلبي جميع احتياجات الأعمال.',
+    'emails_packages_feature_description_4' => 'محتوى جاهز ليدعم مشاريعك التجارية.',
+    'emails_packages_title' => 'اختر خطتك',
+    'emails_packages_description' => 'تقدم حلول البريد الإلكتروني التي تساعد في تحسين التواصل مع العملاء.',
+
+    // صفحة المشاريع
+    'Projects' => 'المشاريع',
+    'Our Projects' => 'مشاريعنا',
+    'project_title' => 'عنوان المشروع',
+    'project_description' => 'وصف المشروع: توفر حلولًا مبتكرة تلبي احتياجات الشركات في كل قطاع.',
+
+    // صفحة المدونة
+    'Blogs' => 'المدونات',
+    'Blog' => 'مدونة',
+    'Our Blogs' => 'مدوناتنا',
+    'Blog Details' => 'تفاصيل المدونة',
+
+    // صفحة الاتصال
+    'Contact Us' => 'اتصل بنا',
+    'Contact_email_message' => 'أرسل لنا استفسارك في أي وقت!',
+
+    // التذييل
+    'Top Projects' => 'أفضل المشاريع',
+    'Quick Links' => 'روابط سريعة',
+    'Other Links' => 'روابط اخري',
+    'Packages' => 'باقات',
+
+    // header navbar
+    'Marketing' => 'التسويق',
+    'Servers' => 'الخوادم',
+    'Emails' => 'البريد الالكتروني',
+
+    'Know More' => 'اعرف المزيد',
+    'View More' => 'عرض المزيد',
+    'Show More' => 'عرض المزيد',
+    'Send Message' => 'ارسال الرساله',
+    'Views' => 'مشاهده',
+
+    'Buy Now' => 'اشتري الأن',
+    'Start Project' => 'ابدأ مشروعك',
+    'copyright' => 'كل الحقوق محفوظه لشركة',
+
+    'packages-description' => 'الحضور في اليوم الأول فقط',
+
+    'Terms' => 'الشروط والأحكام',
+    'terms_title' => 'الشروط والأحكام',
+    'terms_description' => 'صفحة الشروط والأحكام توضح القواعد والضوابط التي تنظم استخدام الموقع والخدمات المقدمة، مع تحديد الحقوق والواجبات لكل من المستخدم والموقع.',
+];
