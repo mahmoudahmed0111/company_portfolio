@@ -48,12 +48,12 @@ class SettingController extends Controller
         // Check if a new logo is uploaded
         if ($request->hasFile('logo')) {
             // Delete the old logo from storage if exists
-            if ($setting->logo && Storage::exists($setting->logo)) {
-                Storage::delete($setting->logo);
+            if ($setting->logo && Storage::exists('public/' . $setting->logo)) {
+                Storage::delete('public/' . $setting->logo);
             }
 
             // Store the new logo
-            $logoPath = $request->file('logo')->store('settings_logos', 'public');
+            $logoPath = $request->file('logo')->store('logos', 'public');
             $setting->logo = $logoPath;
         }
 
@@ -75,4 +75,5 @@ class SettingController extends Controller
         // Redirect back with a success message
         return redirect()->route('settings.index', ['setting' => $setting->id])->with('success', __('translations.settings-updated'));
     }
+
 }

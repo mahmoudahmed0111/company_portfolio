@@ -12,7 +12,7 @@ class Setting extends Model
 
     protected $table = 'settings';
 
-    protected $fillable = ['email', 'phone1', 'phone2', 'logo'];
+    protected $fillable = ['email', 'phone1', 'phone2', 'logo']; 
 
     public $translatedAttributes = ['name', 'description', 'address'];
 }

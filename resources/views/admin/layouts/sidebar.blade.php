@@ -1,16 +1,17 @@
 <div class="startbar d-print-none">
     <!--start brand-->
-    <div class="brand">
+    <div class="brand" style="text-align: center !important; display: block; top: 30px;">
         <a href="index-2.html" class="logo">
             <span>
-                <img src="{{ asset('assets/images/logo-sm.png') }}" alt="logo-small" class="logo-sm">
+                <img src="{{ asset('storage/' . $setting->logo ?? 'default-logo.png') }}" alt="logo-small" class="logo-sm">
             </span>
-            <span class="">
-                <img src="{{ asset('assets/images/logo-light.png') }}" alt="logo-large" class="logo-lg logo-light">
-                <img src="{{ asset('assets/images/logo-dark.png') }}" alt="logo-large" class="logo-lg logo-dark">
+            <span>
+                <img src="{{ asset('storage/' . $setting->logo) }}" alt="logo0-large" class="logo-lg logo-light">
+                <img src="{{ asset('storage/' . $setting->logo) }}" alt="logo-large" class="logo-lg logo-dark">
             </span>
         </a>
     </div>
+
     <!--end brand-->
     <!--start startbar-menu-->
     <div class="startbar-menu">

@@ -1,3 +1,39 @@
+<style>
+    .dark-mode {
+        display: none;
+    }
+
+    [data-bs-theme="dark"] .dark-mode {
+        display: inline-block;
+    }
+
+    [data-bs-theme="dark"] .light-mode {
+        display: none;
+    }
+</style>
+<script>
+    // تعيين الثيم أثناء تحميل الصفحة
+    (function () {
+        var savedTheme = localStorage.getItem("theme") || "light"; // الثيم الافتراضي
+        document.documentElement.setAttribute("data-bs-theme", savedTheme);
+    })();
+
+    try {
+        // تغيير الثيم عند الضغط على الزر
+        var themeColorToggle = document.getElementById("light-dark-mode");
+        themeColorToggle &&
+            themeColorToggle.addEventListener("click", function () {
+                var currentTheme = document.documentElement.getAttribute("data-bs-theme");
+                var newTheme = currentTheme === "light" ? "dark" : "light";
+
+                document.documentElement.setAttribute("data-bs-theme", newTheme);
+                localStorage.setItem("theme", newTheme); // حفظ الثيم الجديد
+            });
+    } catch (e) {
+        console.error("An error occurred while toggling the theme:", e);
+    }
+</script>
+
 <!-- Top Bar Start -->
 <div class="topbar d-print-none">
     <div class="container-fluid">
@@ -59,6 +95,7 @@
                         <i class="iconoir-sun-light light-mode"></i>
                     </a>
                 </li>
+
 
                 <li class="dropdown topbar-item">
                     <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#"
@@ -166,13 +203,13 @@
                 <li class="dropdown topbar-item">
                     <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#"
                         role="button" aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
-                        <img src="{{ asset('storage/'. $user->image) }}" alt=""
+                        <img src="{{ asset('storage/' . $user->image) }}" alt=""
                             class="thumb-md rounded-circle">
                     </a>
                     <div class="dropdown-menu dropdown-menu-end py-0">
                         <div class="d-flex align-items-center dropdown-item py-2 bg-secondary-subtle">
                             <div class="flex-shrink-0">
-                                <img src="{{ asset('storage/'. $user->image) }}" alt=""
+                                <img src="{{ asset('storage/' . $user->image) }}" alt=""
                                     class="thumb-md rounded-circle">
                             </div>
                             <div class="flex-grow-1 ms-2 text-truncate align-self-center">
@@ -198,3 +235,5 @@
     </div>
 </div>
 <!-- Top Bar End -->
+
+
